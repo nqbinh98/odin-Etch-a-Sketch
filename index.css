@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* display: flex; */
+    width: 960px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+
+}
+
+.item {
+    aspect-ratio: 1 / 1;
+    background-color: rgb(255, 255, 255); /* Start with white */
+    transition: background-color 0.2s ease; /* Smooth transition */
+}
+
